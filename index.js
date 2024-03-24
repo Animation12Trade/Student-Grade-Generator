@@ -1,8 +1,9 @@
 function getGrade(marks) {
+  // we wil use the if condition to check if the marks entered are between 0 and 100
 if (marks < 0 || marks > 100) {
     console.log("Please enter a number ranging between 0 to 100.");
 }else {
-
+  // lets determine the corresponding grade 
   let grade;
   if(marks > 79) {
     return "The student's grade is: A";
